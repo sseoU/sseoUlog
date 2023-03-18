@@ -17,7 +17,7 @@ title: sseoUlog
 description: sseoU Github Page
 baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
 url: "https://sseoU.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# repository: just-the-docs/just-the-docs # for github-metadata
+remote_theme: just-the-docs/just-the-docs # for github-metadata
 
 permalink: pretty
 
@@ -80,7 +80,7 @@ search:
   button: false
 
 # For copy button on code
-enable_copy_code_button: true
+## enable_copy_code_button: true
 
 # To disable support for mermaid diagrams (https://mermaid.js.org),
 # comment out the `mermaid` and `version` keys below
@@ -104,7 +104,7 @@ aux_links:
 
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
